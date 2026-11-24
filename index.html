@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marlo Reyes | Landscape Photographer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#top">M/R</a>
+  <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav class="links"><a href="#work">Work</a><a href="#about">About</a><a href="#approach">Approach</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="top">
+  <section class="hero" id="hero">
+    <div class="sky"></div>
+    <div class="night"></div>
+    <div class="sun"></div>
+    <canvas class="dust"></canvas>
+    <h1 class="name"><span>Landscape</span><em>&amp; Light</em></h1>
+    <div class="ridge r1" data-depth="10"></div>
+    <div class="ridge r2" data-depth="22"></div>
+    <div class="ridge r3" data-depth="40"></div>
+    <svg class="ring" viewBox="0 0 200 200" aria-hidden="true">
+      <defs><path id="c" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+      <text><textPath href="#c">Available for commissions &#183; Autumn 2026 &#183; </textPath></text>
+    </svg>
+    <p class="intro">Marlo Reyes photographs the hour before the sun leaves.</p>
+    <a class="scroll" href="#work">Scroll</a>
+  </section>
+
+  <section class="work" id="work">
+    <h2 class="reveal">Selected work</h2>
+    <div class="tiles">
+      <a class="tile t1 reveal" href="#contact"><span class="cap"><b>Salt Flats</b><small>Bolivia, 2025</small></span></a>
+      <a class="tile t2 reveal" href="#contact"><span class="cap"><b>Last Ridge</b><small>Dolomites, 2025</small></span></a>
+      <a class="tile t3 reveal" href="#contact"><span class="cap"><b>Low Tide</b><small>Lofoten, 2024</small></span></a>
+      <a class="tile t4 reveal" href="#contact"><span class="cap"><b>Ember Field</b><small>Tuscany, 2024</small></span></a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-text reveal">
+      <h2>Ten years chasing weather</h2>
+      <p>I plan every shoot around a forecast, a map and a lot of patience. Most of my best frames came from waiting forty minutes for a cloud to move.</p>
+    </div>
+    <div class="stats reveal">
+      <div><b data-count="10">0</b><span>years shooting</span></div>
+      <div><b data-count="34">0</b><span>countries</span></div>
+      <div><b data-count="120">0</b><span>prints sold</span></div>
+    </div>
+  </section>
+
+  <section class="approach" id="approach">
+    <h2 class="reveal">How a commission works</h2>
+    <div class="acc reveal">
+      <details open><summary>Brief</summary><p>We talk about where the image will live, its size and the mood you want.</p></details>
+      <details><summary>Scout</summary><p>I study light and weather for the location, then plan the best days.</p></details>
+      <details><summary>Shoot</summary><p>I travel, wait and shoot. Usually one to three days on location.</p></details>
+      <details><summary>Deliver</summary><p>You receive a small set of finished, graded files, ready to print or publish.</p></details>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="reveal">Let&rsquo;s plan a shoot</h2>
+    <form class="form reveal" id="form" novalidate>
+      <label>Name<input type="text" required></label>
+      <label>Email<input type="email" required></label>
+      <label>Where and when?<textarea rows="3" required></textarea></label>
+      <button class="btn" type="submit">Send enquiry</button>
+      <p class="note" id="note" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="foot"><span>Marlo Reyes</span></footer>
+
+<aside class="credit" aria-label="Site credit">
+  <span class="avatar"><b>AM</b></span>
+  <span class="who"><strong>Designed &amp; built by Areeba Malik</strong><small>@areebamalik0</small></span>
+</aside>
+<script src="script.js"></script>
+</body>
+</html>
