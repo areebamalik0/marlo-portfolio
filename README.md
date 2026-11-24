@@ -12,4 +12,4 @@ Built with plain HTML, CSS and JavaScript. No frameworks. To run it, download th
 
 All rights reserved, see the LICENSE file.
 
-Areeba Malik (@areebamalik1100)
+Areeba Malik (@areebamalik0)
